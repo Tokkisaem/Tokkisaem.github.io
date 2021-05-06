@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+#wrap {
+  display: flex;
+  flex-flow: column nowrap;
+}
+header {
+  text-align: center;
+  border-bottom: 2px solid gray;
+}
+#header-area {
+  width: 60%;
+  margin: 0px auto;
+}
+#wrap > nav {
+  text-align: center;
+  border-bottom: 2px solid gray;
+}
+#nav-area {
+  display: flex;
+  width: 60%;
+  margin: 0px auto;
+}
+section {
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid gray;
+  display: flex;
+}
+#section-nav,
+#section-aside {
+  width: 20%;
+  margin: 0px auto;
+}
+#section-area {
+  width: 60%;
+  margin: 0px auto;
+  padding: 5px 0px 5px 0px;
+}
+#footer-area {
+  width: 60%;
+  margin: 0px auto;
+  padding-bottom: 5px;
+}
+h2,
+h3,
+p {
+  line-height: 1.5;
+}
+.more-learn {
+  font-size: 13px;
+  color: slategray;
+}
+a {
+  text-decoration: none;
+}
+li {
+  font-size: 14px;
+  line-height: 1.5;
+}
+ol ul li {
+  margin-left: -20px;
+}
