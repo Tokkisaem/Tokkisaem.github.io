@@ -27,13 +27,13 @@
             <ul class="zeta-menu">
               <li><a href="../index.html">홈</a></li>
               <li>
-                <a href="web.html">Freeview</a>
+                <a href="./web.html">Freeview</a>
                 <ul>
                   <li>
-                    <a href="web.html">Freeview</a>
+                    <a href="./web.html">Freeview</a>
                     <ul>
-                      <li><a href="web.html">Freeview</a></li>
-                      <li><a href="#">Freeview - Plus Ver</a></li>
+                      <li><a href="./web.html">Freeview</a></li>
+                      <li><a href="./webplus.html">Freeview - Plus Ver</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -53,14 +53,19 @@
       <section>
           <nav id="section-nav">
             <ol>
-                <li><a href="#freeview">Freeview</a></li>
-                <ul>
-                  <li><a href="#htmlcssjs">HTML, CSS, JS</a></li>
-                  <li><a href="#html_css_js">HTML, HTML + CSS, HTML + CSS + JS</a></li>
-                  <li><a href="#client-server">서버와 접속자의 통신</a></li>
+              <li><a href="./web.html#freeview">Freeview</a></li>
+              <ul>
+                <li><a href="./web.html#htmlcssjs">HTML, CSS, JS</a></li>
+                <li><a href="./web.html#html_css_js">HTML, HTML + CSS, HTML + CSS + JS</a></li>
+                <li><a href="./web.html#client-server">서버와 접속자의 통신</a></li>
 
-                </ul>
-            </ol>
+              </ul>
+              <li><a href="./webplus.html#freeview_plus">Freeview - Plus</a></li>
+              <ul>
+                  <li><a href="./webplus.html#sign">특수기호</a></li>
+                  <li><a href="./webplus.html#route">상대 경로와 절대 경로</a></li>
+              </ul>
+          </ol>
           </nav>
         <div id="section-area">
           <h2><a name="freeview">Freeview</a></h2>
@@ -69,26 +74,31 @@
           <p>아아, "더 알아보기" 라는 작은 글씨들이 있을 때가 있는데요. </p>
           <p> 아주 가끔, 어려운 내용이 나올 수 있으니 어려운 내용은 무시하셔도 괜찮습니다..! 추가 이해를 위해서 필요한 내용이에요 :)</p>
           <h3><a name="htmlcssjs">HTML, CSS, JS</a></h3>
-          <img src="../image/htmlcssjs.jpg" alt="html, css, js introduce">
+          <img src="../image/htmlcssjs.jpg" alt="html, css, js introduce" width="40%">
           <p>간단히 설명하자면, <strong>HTML은 뼈대를 잡아주고, CSS는 디자인을 해주고, JavaScript는 동작을 처리</strong>해주는 역할을 합니다!</p>
           <p>HTML로는 <strong>제목이나, 글자 또는 이미지, 영상 등의 요소 (태그) 를 정의</strong>합니다. 웹의 구조를 잡아준다고 봐도 괜찮을 것 같아요!</p>
           <p>그리고 CSS는, <strong>HTML에서 정의해준 요소들을 꾸며줍니다!</strong> 색깔이나 간격, 크기, 폰트 등.. 시각적 표현을 담당해줍니다.</p>
           <p>JavaScript로는, <strong>버튼을 클릭하거나, 컨텐츠를 바꾸고 움직이는 등.. 웹 페이지에서의 동작들을 처리하는 담당</strong>을 합니다!</p>
           <p><strong>이 3개의 언어는 밀접한 관계를 가지고, 웹 페이지를 구성하는 기본적인 언어들입니다!</strong></p>
-          <span class="more-learn">더 알아보기 : <a href="https://junghn.tistory.com/entry/htmlcss-HTMLCSSJavascript-%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%B0%A8%EC%9D%B4%EC%A0%90" target="_blank">코딩 시그널 : HTML/CSS/JS의 정의와 차이점</a></span>
+          <span class="more-learn">더 알아보기 : 
+            <a href="https://junghn.tistory.com/entry/htmlcss-HTMLCSSJavascript-%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%B0%A8%EC%9D%B4%EC%A0%90" target="_blank">코딩 시그널 : HTML/CSS/JS의 정의와 차이점</a></span>
           <h3><a name="html_css_js">HTML, HTML + CSS, HTML + CSS + JS</a></h3>
           <p>글로만 보면 어려울 수 있으니, 이미지로 HTML, CSS, JS가 무슨 역할을 하는지 볼까요?</p>
           <img src="../image/html.jpg" alt="html" width="33%">
           <img src="../image/css.jpg" alt="html + css"width="33%">
           <img src="../image/js.jpg" alt="html + css + js"width="33%">
           <p>순서대로 HTML, HTML + CSS, HTML + CSS + JS가 적용되어 있는 사진입니다! 이제 이해가 잘 되시려나요?</p>
+          <p>HTML과 CSS까지는, 정의한 요소를 꾸미는 것이라 할만 하고, 레이아웃 중심으로 사고적인 코딩을 하기 때문에 괜찮습니다.</p>
+          <p>하지만 자바스크립트는 데이터 기준으로, 우리가 모르는 언어들로 데이터 중심의 사고적인 코딩을 하기 때문에 조금 어려울 수 있습니다.. </p>
+          <p>하지만 열심히 하면 할 수 있어요!</p>
           <h3><a name="client-server">서버와 접속자의 통신</a></h3>
           <p>이건 너무 깊게 이해하려 하지 않고, 아 그렇구나.. 정도로만 보셔도 괜찮습니다!</p>
-          <img src="../image/client-server.jpg" alt="client-server system">
+          <img src="../image/client-server.jpg" alt="client-server system"width="40%">
           <p>이 사진에서의 서버는 html, css, js, image .. 등등의 파일을 가지고 있는 컴퓨터입니다.</p>
           <p>클라이언트는 곧 접속자, 사이트에 접속하는 사람입니다!</p>
           <p>클라이언트가 서버에게 웹 페이지의 파일들을 요청하면, 서버가 그 요청을 응답하여 파일을 보내주고 웹 페이지가 우리의 눈에 보여지는 것입니다!</p>
-          <span class="more-learn">더 알아보기 : <a href="https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works" target="_blank">모질라 : 웹의 동작 방식</a>, <a href="https://youtu.be/yBPyzaccbkc"target="_blank">생활코딩 : 웹 서버와 클라이언트</a></span>
+          <span class="more-learn">더 알아보기 : 
+            <a href="https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works" target="_blank">모질라 : 웹의 동작 방식</a>, <a href="https://youtu.be/yBPyzaccbkc"target="_blank">생활코딩 : 웹 서버와 클라이언트</a></span>
           <h2>End</h2>
           <p>프리뷰의 내용은, 여기까지입니다. Plus Ver로 가시면 좋은 내용들을 알 수 있지만 조금은 어려울 수 있고, 바로 HTML로 넘어가셔도 괜찮습니다!</p>
         </div>
