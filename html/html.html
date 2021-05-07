@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link href="../css/reset.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+    <link href="../css/dropdown.css" rel="stylesheet" />
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/dropdown.js"></script>
+    <style>
+      h3 {
+        padding-top:20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header>
+        <div id="header-area">
+          <h1>What is WEB?</h1>
+        </div>
+      </header>
+      <nav>
+        <div id="nav-area">
+          <div class="zeta-menu-bar">
+            <ul class="zeta-menu">
+              <li><a href="../index.html">홈</a></li>
+              <li>
+                <a href="./web.html">Freeview</a>
+                <ul>
+                  <li>
+                    <a href="./web.html">Freeview</a>
+                    <ul>
+                      <li><a href="./web.html">Freeview</a></li>
+                      <li><a href="./webplus.html">Freeview - Plus Ver</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="./html.html">HTML</a>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+              </li>
+              <li><a href="#">JS</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section>
+          <nav id="section-nav">
+            <ol>
+                <li><a href="#html">HTML</a></li>
+                
+            </ol>
+          </nav>
+        <div id="section-area">
+          <h2>HTML</h2>
+          <p>이번엔 HTML에 대해 알려드리겠습니다! </p>
+          <p>HTML이라는 언어는, 구조를 만드는 역할을 하니 문법정도와 각 태그들의 역할, 어떤 속성을 사용하는지 정도만 아시면 될 것 같습니다 :) </p>
+          <h3>HTML의 기본 문법</h3>
+          <p>먼저, HTML의 문법을 알아봐요!</p>
+          <p>HTML은 '태그' 중심의 마크업 언어이기 때문에, 태그의 문법을 잘 알아야 합니다!</p>
+          <img src="../image/tag.JPG"width="10%"/>
+          <p>태그들은 대부분 이러한 형태를 갖습니다.</p>
+          <p><strong>앞쪽에 있는 태그를 시작(열린) 태그라 부르고, 뒤쪽의 태그를 종료(닫힌) 태그</strong>라 부르죠. 그 사이에는 내용이 들어갑니다!</p>
+          <p>태그..? 이게 무슨 말이지? 라고 생각하지 말고 그냥 그렇구나. 생각하시면 됩니다! 뒤에서 각각 태그들의 쓰임새를 알면 이해될거에요!</p>
+          <p>제가 앞에서, '대부분' 이러한 형태를 가진다고 했죠? 이런 형태를 가지지 않는 태그들도 있습니다.</p>
+          <img src="../image/empty_tag.JPG"width="5%"/>
+          <p><strong>이러한 형태를 가진 태그는, '빈 태그' 라고 부르고 닫히는 태그가 존재하지 않습니다.</strong></p>
+          <p>그리고 이러한 빈 태그는, 닫히는 태그 대신에 열린 태그의 마지막에 /를 붙여줍니다!</p>
+          <p>대표적으로는 이미지를 넣어주는 img 태그, 줄바꿈을 해주는 br 태그가 있습니다.</p>
+          <img src="../image/property.jpg" width="15%"/>
+          <p><strong>태그마다 각각의 속성을 적용</strong>하여 기능을 줄 수도 있습니다!</p>
+          <p>이미지 태그를 예로 들어볼까요?</p>
+          <img src="../image/property_exam_plus.JPG" width="5%"/>
+          <p>지금은 그냥.. 속성이 없어서 이미지 태그만 있고 어떤 이미지를 보여줄지 모르겠죠..?</p>
+          <img src="../image/property_exam.JPG" width="15%"/>
+          <p>하지만 이런식으로 속성에 값을 주어 기능을 추가하면, 더 많은 일을 할 수 있게 되는거에요!</p>
+          <p>아아, '태그' 라는 말은 '요소' 라는 말로도 이해 할 수 있습니다!</p>
+          <p>혹시 어려운..가요..? HTML은 이것만 알면 끝이니 안심하세요!!</p>
+          <h3>HTML의 기본 구조</h3>
+          <img src="../image/basic_html.JPG" width="20%"/>
+          <p>일단, HTML의 기본 구조부터 알아볼까요?</p>
+          <p>이 구조는, <strong>꼭 필요한 필수구조</strong>입니다. 순서대로 설명해볼게요!</p>
+          <p><strong>!DOCTYPE html 태그는, 이 웹 페이지의 HTML 버전을 지정해주는거에요.</strong> 최신버전 - HTML5로 지정하는거죠! </p>
+          <p>이 태그는 특수한 태그라 빈 태그 취급도 받지 않고, 저렇게 열린 태그만 존재합니다.</p>
+          <p><strong>html 태그는 문서의 전체 범위를 브라우저에게 알려주는겁니다!</strong></p>
+          <p>브라우저도 이 태그를 통해 아, 여기가 html의 범위구나? 하고 알아채는거죠.</p>
+          <p><strong>head 태그는 문서의 정보를 나타내주는 범위입니다.</strong></p>
+          <p>사람들에게 보여지지 않는 정보들, 페이지의 제목이나 설명, 가져올 파일의 위치 등등.. 을 쓰는 범위입니다!</p>
+          <p><strong>body 태그는 문서의 구조를 나타내주는 범위입니다.</strong></p>
+          <p>사람들에게 보여지는, 로고라던가 메뉴.. 버튼.. 글, 제목 등등을 쓰는 범위에요!</p>
+          <h3><del>TMI</del></h3>
+          <p>사실 여기까지는 다 알아야 하지만.. 앞으로 배울 HTML, CSS는 기본만 알아도 괜찮아요.</p>
+          <img src="../image/cheat_key_serach.JPG" width="35%"/>
+          <p>저도 기억이 나지 않을 때는 이렇게 검색 치트키를 (?) 사용하니까.. 모르면 검색하시면서 하셔도 되니 기본만 잘 배워봐요!</p>
+          <p>그리고 HTML과 CSS는, <strong>이렇게 기본만 배우고 많이 써보는게 중요해요!!</strong></p>
+        </div>
+        <asdie id="section-aside">
+          <p>2021/05/26 : launch project</p>
+        </aside>
+      </section>
+
+      <footer>
+        <div id="footer-area">
+          <p>Copyright © 2021. Tokkisaem. All rights reserved.</p>
+          <address>
+            Contact webmaster for more information. 040206qwer@naver.com
+          </address>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
