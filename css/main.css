@@ -41,6 +41,8 @@ section {
   padding: 5px 0px 5px 0px;
   background-color: lightgray;
   padding: 0px 10px 0px 10px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
 }
 #footer-area {
   width: 60%;
@@ -66,6 +68,9 @@ li {
 ol ul li {
   margin-left: -20px;
 }
+ol ul ul li {
+  margin-left: -30px;
+}
 @font-face {
   font-family: "NEXON Lv2 Gothic";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff")
@@ -84,6 +89,7 @@ ol ul li {
   font-family: "NEXON Lv1 Gothic OTF";
 }
 .tag {
+  border: 2px solid white;
   background-color: gray;
   display: inline;
   padding: 6px;
@@ -91,6 +97,15 @@ ol ul li {
   font-family: "NEXON Lv2 Gothic";
 }
 .sptag {
-  width: 220px;
+  width: 400px;
   display: inline-block;
+}
+h4 {
+  color: green;
+}
+.bimg {
+  border: 2px solid white;
+}
+.wimg {
+  border: 2px solid black;
 }
